@@ -1358,11 +1358,7 @@ server or otherwise encounters server issues, the tested website
 may return failures (even though it's not interfered with) and the
 OONI Probe test may fail.
 
-* **DNS resolution.** If the DNS resolver of an OONI Probe user (such
-as Google or their local ISP) provides an IP addresses that is
-closest to the user geographically, that IP address may differ
-from the IP address resolved from a control vantage point,
-potentially incorrectly indicating the presence of DNS tampering.
+* **DNS resolution.** Many websites and services attempt to improve the quality of their service by serving the content, or providing the service, from servers that are as close as possible to the geographic location of the user. DNS plays a role in that, resulting in the possibility that users in different parts of world getting different IPs for the same website. If the DNS resolver used by the user of OONI Probe returns an IP addresses that is different from the IP address resolved from a control vantage point, this could incorrectly be percieved as presence of DNS tampering. 
 
 * **Geographical distribution of content.** Many websites serve
 different content depending on the country that the user is
