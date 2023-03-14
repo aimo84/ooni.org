@@ -1391,7 +1391,7 @@ of a site).
 As part of the [OONI Partnership Program](https://ooni.org/get-involved/partnership-program/), we offer
 data analysis support to the human rights organizations that we
 collaborate with. All [OONI data and methodologies](https://ooni.org/data/) are openly available with the
-hope that other data analysis will support communities as well.
+hope that other data analysts will support communities as well.
 
 We encourage you to [reach out (via email or Slack)](https://ooni.org/about/#contact) if you’re unsure of a
 measurement and planning on using it (for example) as part of reporting.
